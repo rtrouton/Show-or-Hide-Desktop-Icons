@@ -1,0 +1,15 @@
+if [[ `/usr/bin/defaults read com.apple.finder CreateDesktop` = "" ]] || [[ `/usr/bin/defaults read com.apple.finder CreateDesktop` == "1" ]]; then
+    /usr/bin/defaults write com.apple.finder CreateDesktop -bool false
+    /usr/bin/killall Finder
+    sleep 1
+    /usr/bin/osascript -e 'tell app "System Events" to display dialog "Desktop icons are now hidden." buttons "OK" default button 1'
+    exit
+fi
+
+if [[ `/usr/bin/defaults read com.apple.finder CreateDesktop` == "0" ]]; then
+    /usr/bin/defaults write com.apple.finder CreateDesktop -bool true
+    /usr/bin/killall Finder
+    sleep 1
+    /usr/bin/osascript -e 'tell app "System Events" to display dialog "Desktop icons are now visible." buttons "OK" default button 1'
+    exit
+fi

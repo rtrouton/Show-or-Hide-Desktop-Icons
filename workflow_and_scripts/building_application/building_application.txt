@@ -1,0 +1,14 @@
+Once you have created the Automator application, you will need to do the following steps:
+
+1. Unzip the following files:
+
+* workflow_scripts_and_icons/icon/Show_and_Hide_Desktop_Icons_Folder_Icon.zip
+* workflow_scripts_and_icons/icon/Show_and_Hide_Desktop_Icons_icons.zip
+
+2. Give the Automator application the Show or Hide Desktop Icons.app folder icon.
+
+3. Go into Show or Hide Desktop Icons.app/Contents/Resources and remove the following file:
+
+AutomatorApplet.icns
+
+4. Rename the unzipped Show_and_Hide_Desktop_Icons_icons.zip file to be AutomatorApplet.icns and copy it to Show or Hide Desktop Icons.app/Contents/Resources.
