@@ -46,7 +46,7 @@ Not tested on the following versions of OS X::
 ***How Show or Hide Desktop Icons.app works***
 
 
-**Show or Hide Desktop Icons.app** Show or Hide Desktop Icons.app is an Automator application that uses shell scripting behind the scenes to run the needed commands. When the application is launched, the following process takes place:
+**Show or Hide Desktop Icons.app** is an Automator application that uses shell scripting behind the scenes to run the needed commands. When the application is launched, the following process takes place:
 
 The script inside the Automator application determines if the desktop icons are set to be hidden or visible by checking for the following conditions:
 
