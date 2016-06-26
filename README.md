@@ -31,16 +31,16 @@ Not tested on the following versions of OS X::
 
 **Visible icons:**
 
-A. The defaults command to hide the icons is applied.
-B. The Finder process is restarted.
-C. A dialog window notifies you that the desktop icons are now hidden.
+1. The `defaults` command to hide the icons is applied.
+2. The Finder process is restarted.
+3. A dialog window notifies you that the desktop icons are now hidden.
 
 
 **Hidden icons:**
 
-A. The defaults command to make the icons visible is applied.
-B. The Finder process is restarted.
-C. A dialog window notifies you that the desktop icons are now visible.
+1. The `defaults` command to make the icons visible is applied.
+2. The Finder process is restarted.
+3. A dialog window notifies you that the desktop icons are now visible.
 
 
 ***How Show or Hide Desktop Icons.app works***
@@ -56,18 +56,21 @@ The **CreateDesktop** value in the user's **~/Library/Preferences/com.apple.find
 
 **Action:** 
 
-A. The **defaults** command to hide the icons is applied.
-B. The Finder process is restarted.
-C. A dialog window notifies you that the desktop icons are now hidden.
-D. The script exits.
+1. The `defaults` command to hide the icons is applied.
+2. The Finder process is restarted.
+3. A dialog window notifies you that the desktop icons are now hidden.
+4. The script exits.
 
-Condition: 
+**Condition:** 
 
 The **CreateDesktop** value in the user's **~/Library/Preferences/com.apple.finder.plist** file is set with a boolean value of **false**.
 
-Action:
+**Action:**
 
-A. The **defaults** command to make the icons visible is applied.
-B. The Finder process is restarted.
-C. A dialog window notifies you that the desktop icons are now visible.
-D. The script exits.
+1. The `defaults` command to make the icons visible is applied.
+2. The Finder process is restarted.
+3. A dialog window notifies you that the desktop icons are now visible.
+4. The script exits.
+
+
+Blog post: [https://derflounder.wordpress.com/2016/06/26/showing-and-hiding-all-desktop-icons-via-the-command-line/](https://derflounder.wordpress.com/2016/06/26/showing-and-hiding-all-desktop-icons-via-the-command-line/)
