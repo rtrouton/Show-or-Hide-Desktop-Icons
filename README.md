@@ -5,18 +5,13 @@ Show-or-Hide-Desktop-Icons
 
 **Show or Hide Desktop Icons.app** has been tested and verified to run on the following versions of macOS:
 
-**10.12 DP 1**
+* 10.14.4
+* 10.13.6
+* 10.12.6
 
-**Show or Hide Desktop Icons.app** has been tested and verified to run on the following versions of OS X:
+Not tested on the following versions of OS X:
 
-**10.11.x**
-
-**10.10.x**
-
-
-Not tested on the following versions of OS X::
-
-**10.9.x or earlier**
+* 10.11.6 or earlier
 
 ============================
 
